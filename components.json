@@ -17,5 +17,8 @@
     "lib": "@/lib",
     "hooks": "@/hooks"
   },
-  "iconLibrary": "lucide"
+  "iconLibrary": "lucide",
+  "registries": {
+    "@sandy": "file:///Users/sandy/projects/dotfiles/toolchain/ui-registry/{name}.json"
+  }
 }

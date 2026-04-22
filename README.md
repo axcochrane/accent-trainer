@@ -1,4 +1,7 @@
 # accent-trainer
+  await uploadToPresignedUrl(url, source.file!)
+await confirmUpload(reasoningBaseUrl, jwt, reasoningSpaceId, fileId)
+  // Agent instructions - lets trigger processing once we are happy that upload is confirmed
 
 To install dependencies:
 
