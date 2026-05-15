@@ -130,7 +130,7 @@ export default function HomePage() {
 
   if (wordLoading) {
     return (
-      <div className="flex min-h-[calc(100vh-65px)] items-center justify-center">
+      <div className="flex min-h-screen items-center justify-center">
         <Loader2 className="size-8 animate-spin text-muted-foreground" />
       </div>
     );
@@ -138,7 +138,7 @@ export default function HomePage() {
 
   if (wordError || !word) {
     return (
-      <div className="flex min-h-[calc(100vh-65px)] flex-col items-center justify-center gap-4 p-8">
+      <div className="flex min-h-screen flex-col items-center justify-center gap-4 p-8">
         <h2 className="text-2xl font-bold">No words available</h2>
         <p className="text-muted-foreground">
           {practicedWordIds.length > 0
